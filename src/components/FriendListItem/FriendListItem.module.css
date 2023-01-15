@@ -1,3 +1,36 @@
 .item {
-	background-color: aquamarine;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 0 20px;
+	height: 80px;
+	width: 300px;
+	margin: 10px auto;
+	background-color: var(--color-white);
+	border-radius: 6px;
+	box-shadow: 0.5px 1.5px 8px 0.5px var(--color-black);
+}
+
+.status {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: var(--color-red);
+}
+
+.active {
+	composes: status;
+	background-color: var(--color-green);
+}
+
+.avatarFriend {
+	margin-left: 10px;
+	border-radius: 6px;
+}
+
+.nameFriend {
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: 700;
 }

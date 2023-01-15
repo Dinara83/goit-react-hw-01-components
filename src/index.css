@@ -2,6 +2,11 @@
 
 :root {
 	--color-white: #ffffff;
+	--color-gray: gray;
+	--color-gray-light: rgb(194, 189, 189);
+	--color-black: black;
+	--color-red: red;
+	--color-green: green;
 }
 
 * {

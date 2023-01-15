@@ -1,3 +1,37 @@
 .statistics {
-	background-color: blueviolet;
+	margin: 20px auto;
+	width: 300px;
+	background-color: var(--color-white);
+	border-radius: 6px;
+	box-shadow: 0.5px 1.5px 8px 0.5px var(--color-black);
 }
+
+.titleStatistic {
+	padding: 40px 0;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.statList {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.itemStatistic {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 0;
+	width: 100%;
+}
+
+/* .labelDoc {
+}
+
+.percentage {
+} */
