@@ -3,7 +3,11 @@ import css from './Statistics.module.css';
 
 const Statistics = ({ title, stats }) => {
   const elements = stats.map(({ label, percentage, id }) => (
-    <li key={id} className={css.itemStatistic} style={{ backgroundColor: getRandomColor() }}>
+    <li
+      key={id}
+      className={css.itemStatistic}
+      style={{ backgroundColor: getRandomColor() }}
+    >
       <span className={css.labelDoc}>{label}</span>
       <span className={css.percentage}>{percentage}%</span>
     </li>
@@ -11,16 +15,14 @@ const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.titleStatistic}>{title}</h2>}
-      <ul className={css.statList}>
-        {elements} 
-      </ul>
+      <ul className={css.statList}>{elements}</ul>
     </section>
   );
 };
 
 const getRandomColor = () => {
-	return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-  }
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+};
 
 Statistics.defaultProps = {
   stats: [],

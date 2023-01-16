@@ -7,41 +7,8 @@
 	--color-black: black;
 	--color-red: red;
 	--color-green: green;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-li {
-	list-style: none;
-}
-
-address {
-	font-style: normal;
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+	--color-blur: rgb(97, 190, 226);
+	--color-blur-gray: rgb(210, 233, 242);
 }
 
 body {

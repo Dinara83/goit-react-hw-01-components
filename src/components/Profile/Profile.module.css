@@ -2,6 +2,7 @@
 	margin: 20px auto;
 	width: 200px;
 	padding-top: 20px;
+	align-items: center;
 	background-color: var(--color-white);
 	border-radius: 6px;
 	box-shadow: 0.5px 1.5px 8px 0.5px var(--color-black);
